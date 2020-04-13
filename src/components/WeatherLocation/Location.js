@@ -8,7 +8,7 @@ const Location = ({city}) => (//Destructuring al recibir
     
     //const {city} = props; //Desructuring -> Ecmascript
     // Es igual a -> const city = props.city;
-    <div>
+    <div className="locationCont">
         <h1>
             {city}
         </h1>
